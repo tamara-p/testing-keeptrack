@@ -1,0 +1,46 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ProjectCard/> snapshot 1`] = `
+<div
+  className="card"
+>
+  <img
+    alt="Random name"
+    src=""
+  />
+  <section
+    className="section dark"
+  >
+    <a
+      href="/projects/1"
+      onClick={[Function]}
+    >
+      <h5
+        className="strong"
+      >
+        <strong>
+           
+          Random name
+        </strong>
+      </h5>
+      <p>
+         
+        describing the thing...
+      </p>
+      <p>
+         Budget : 
+        100
+      </p>
+    </a>
+    <button
+      className="bordered"
+      onClick={[Function]}
+    >
+      <span
+        className="icon-edit"
+      />
+      Edit
+    </button>
+  </section>
+</div>
+`;
