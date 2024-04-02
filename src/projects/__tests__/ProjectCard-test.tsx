@@ -47,8 +47,8 @@ describe("<ProjectCard/>", () =>{
         
          setup();
         
-        const user = userEvent.setup();
-        await user.click(screen.getByRole('button', { name: /edit/i}));
+        const view = userEvent.setup();
+        await view.click(screen.getByRole('button', { name: /edit/i}));
         expect(handleEdit).toBeCalledTimes(1);
         expect(handleEdit).toBeCalledWith(project);
     });
